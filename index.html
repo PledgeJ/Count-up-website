@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immy</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.7.1/build/global/luxon.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Immy <span style="color: #ff6b6b"><3</span></h1>
+
+        <div class="nav-bar">
+            <a href="index.html">Relationship</a>
+            <div class="separator"></div>
+            <a href="#" style="cursor: not-allowed; opacity: 0.7;">Duck Pond</a> <!-- Temporarily disabled -->
+        </div>
+    </header>
+
+    <main>
+        <section class="time-since">
+            <h1>We've been dating for:</h1>
+
+            <div class="time-container">
+            <div class="box">
+                <h1 id="years" class="num">00</h1>
+                <h1 class="tag">Years</h1>
+            </div>
+
+            <div class="box">
+                <h1 id="months" class="num">00</h1>
+                <h1 class="tag">Months</h1>
+            </div>
+
+            <div class="box">
+                <h1 id="days" class="num">00</h1>
+                <h1 class="tag">Days</h1>
+            </div>
+
+            <div class="box">
+                <h1 id="hours" class="num">00</h1>
+                <h1 class="tag">Hours</h1>
+            </div>
+
+            <div class="box">
+                <h1 id="minutes" class="num">00</h1>
+                <h1 class="tag">Minutes</h1>
+            </div>
+
+            <div class="box">
+                <h1 id="seconds" class="num">00</h1>
+                <h1 class="tag">Seconds</h1>
+            </div>
+            </div>
+        </section>
+
+        <section class="individual-time-units">
+            <h1>That's:</h1>
+            <h1 class="in-days"></h1>
+            <h1 class="in-hours"></h1>
+            <h1 class="in-seconds"></h1>
+        </section>
+    </main>
+
+</body>
+</html>
