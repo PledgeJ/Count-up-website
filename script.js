@@ -27,7 +27,7 @@ function updateTimeSince(now) {
     document.getElementById("seconds").textContent = String(Math.floor(deltaTime.seconds));
 }
 
-const startDate = luxon.DateTime.fromISO("2023-03-21T18:00:00", { zone: 'Europe/London' });
+const startDate = luxon.DateTime.fromISO("2025-09-20T15:00:00", { zone: 'Europe/London' });
 update();
 
 setInterval(update, 1000)
